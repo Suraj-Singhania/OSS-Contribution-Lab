@@ -1,0 +1,142 @@
+# Dependency report for this project
+
+This file lists the external packages and local component/module dependencies used across the project folder.
+
+## Project type
+- Type: Next.js + React + TypeScript
+- App root: `src/`
+- Package manifest: `package.json`
+
+## Runtime dependencies
+- `@base-ui/react`: `^1.7.0`
+- `@clerk/nextjs`: `^7.8.4`
+- `@clerk/themes`: `^2.4.57`
+- `@google/generative-ai`: `^0.24.1`
+- `@prisma/client`: `^6.6.0`
+- `@shadcn/react`: `^0.3.0`
+- `@t3-oss/env-nextjs`: `^0.12.0`
+- `@tanstack/react-query`: `^5.69.0`
+- `@trpc/client`: `^11.0.0`
+- `@trpc/react-query`: `^11.0.0`
+- `@trpc/server`: `^11.0.0`
+- `axios`: `^1.20.0`
+- `class-variance-authority`: `^0.7.1`
+- `clsx`: `^2.1.1`
+- `cmdk`: `^1.1.1`
+- `date-fns`: `^4.4.0`
+- `embla-carousel-react`: `^8.6.0`
+- `input-otp`: `^1.4.2`
+- `lucide-react`: `^1.31.0`
+- `next`: `^15.2.3`
+- `next-themes`: `^0.4.6`
+- `octokit`: `^5.0.5`
+- `radix-ui`: `^1.6.7`
+- `react`: `^19.0.0`
+- `react-day-picker`: `^10.0.1`
+- `react-dom`: `^19.0.0`
+- `react-form`: `^4.0.1`
+- `react-hook-form`: `^7.87.0`
+- `react-resizable-panels`: `^4.12.2`
+- `recharts`: `3.8.0`
+- `server-only`: `^0.0.1`
+- `shadcn`: `^4.18.0`
+- `sonner`: `^2.0.8`
+- `superjson`: `^2.2.1`
+- `tailwind-merge`: `^3.6.0`
+- `tw-animate-css`: `^1.4.0`
+- `usehooks-ts`: `^3.1.1`
+- `vaul`: `^1.1.2`
+- `zod`: `^3.24.2`
+
+## Development dependencies
+- `@eslint/eslintrc`: `^3.3.1`
+- `@tailwindcss/postcss`: `^4.0.15`
+- `@types/node`: `^20.14.10`
+- `@types/react`: `^19.0.0`
+- `@types/react-dom`: `^19.0.0`
+- `eslint`: `^9.23.0`
+- `eslint-config-next`: `^15.2.3`
+- `postcss`: `^8.5.3`
+- `prettier`: `^3.5.3`
+- `prettier-plugin-tailwindcss`: `^0.6.11`
+- `prisma`: `^6.6.0`
+- `tailwindcss`: `^4.0.15`
+- `typescript`: `^5.8.2`
+- `typescript-eslint`: `^8.27.0`
+
+## Local component and module dependency map
+- `src/app/(protected)/create/page.tsx` -> `src/components/ui/button.tsx`, `src/components/ui/input.tsx`, `src/hooks/use-refetch.ts`, `src/trpc/react.tsx`
+- `src/app/(protected)/dashboard/app-sidebar.tsx` -> `src/components/ui/button.tsx`, `src/components/ui/sidebar.tsx`, `src/hooks/use-project.ts`, `src/lib/utils.ts`
+- `src/app/(protected)/dashboard/page.tsx` -> `src/hooks/use-project.ts`
+- `src/app/(protected)/layout.tsx` -> `src/app/(protected)/dashboard/app-sidebar.tsx`, `src/app/(protected)/profile-area.tsx`, `src/components/ui/sidebar.tsx`
+- `src/app/_components/post.tsx` -> `src/trpc/react.tsx`
+- `src/app/api/trpc/[trpc]/route.ts` -> `src/env.js`, `src/server/api/root.ts`, `src/server/api/trpc.ts`
+- `src/app/layout.tsx` -> `src/trpc/react.tsx`
+- `src/app/page.tsx` -> `src/components/ui/button.tsx`
+- `src/app/sync-user/page.tsx` -> `src/server/db.ts`
+- `src/components/ui/accordion.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/alert-dialog.tsx` -> `src/components/ui/button.tsx`, `src/lib/utils.ts`
+- `src/components/ui/alert.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/attachment.tsx` -> `src/components/ui/button.tsx`, `src/lib/utils.ts`
+- `src/components/ui/avatar.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/badge.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/breadcrumb.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/bubble.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/button-group.tsx` -> `src/components/ui/separator.tsx`, `src/lib/utils.ts`
+- `src/components/ui/button.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/calendar.tsx` -> `src/components/ui/button.tsx`, `src/lib/utils.ts`
+- `src/components/ui/card.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/carousel.tsx` -> `src/components/ui/button.tsx`, `src/lib/utils.ts`
+- `src/components/ui/chart.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/checkbox.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/combobox.tsx` -> `src/components/ui/button.tsx`, `src/components/ui/input-group.tsx`, `src/lib/utils.ts`
+- `src/components/ui/command.tsx` -> `src/components/ui/dialog.tsx`, `src/components/ui/input-group.tsx`, `src/lib/utils.ts`
+- `src/components/ui/context-menu.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/dialog.tsx` -> `src/components/ui/button.tsx`, `src/lib/utils.ts`
+- `src/components/ui/drawer.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/dropdown-menu.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/empty.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/field.tsx` -> `src/components/ui/label.tsx`, `src/components/ui/separator.tsx`, `src/lib/utils.ts`
+- `src/components/ui/hover-card.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/input-group.tsx` -> `src/components/ui/button.tsx`, `src/components/ui/input.tsx`, `src/components/ui/textarea.tsx`, `src/lib/utils.ts`
+- `src/components/ui/input-otp.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/input.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/item.tsx` -> `src/components/ui/separator.tsx`, `src/lib/utils.ts`
+- `src/components/ui/kbd.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/label.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/marker.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/menubar.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/message-scroller.tsx` -> `src/components/ui/button.tsx`, `src/lib/utils.ts`
+- `src/components/ui/message.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/native-select.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/navigation-menu.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/pagination.tsx` -> `src/components/ui/button.tsx`, `src/lib/utils.ts`
+- `src/components/ui/popover.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/progress.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/questionnaire.tsx` -> `src/components/ui/button.tsx`, `src/lib/utils.ts`
+- `src/components/ui/radio-group.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/resizable.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/scroll-area.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/select.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/separator.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/sheet.tsx` -> `src/components/ui/button.tsx`, `src/lib/utils.ts`
+- `src/components/ui/sidebar.tsx` -> `src/components/ui/button.tsx`, `src/components/ui/input.tsx`, `src/components/ui/separator.tsx`, `src/components/ui/sheet.tsx`, `src/components/ui/skeleton.tsx`, `src/components/ui/tooltip.tsx`, `src/hooks/use-mobile.ts`, `src/lib/utils.ts`
+- `src/components/ui/skeleton.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/slider.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/spinner.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/switch.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/table.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/tabs.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/textarea.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/toggle-group.tsx` -> `src/components/ui/toggle.tsx`, `src/lib/utils.ts`
+- `src/components/ui/toggle.tsx` -> `src/lib/utils.ts`
+- `src/components/ui/tooltip.tsx` -> `src/lib/utils.ts`
+- `src/hooks/use-project.ts` -> `src/trpc/react.tsx`
+- `src/lib/github.ts` -> `src/lib/gemini.ts`, `src/server/db.ts`
+- `src/server/api/root.ts` -> `src/server/api/routers/post.ts`, `src/server/api/routers/project.ts`, `src/server/api/trpc.ts`
+- `src/server/api/routers/post.ts` -> `src/server/api/trpc.ts`
+- `src/server/api/routers/project.ts` -> `src/server/api/trpc.ts`
+- `src/server/api/trpc.ts` -> `src/server/db.ts`
+- `src/server/db.ts` -> `generated/prisma/index.js`, `src/env.js`
+- `src/trpc/react.tsx` -> `src/server/api/root.ts`, `src/trpc/query-client.ts`
+- `src/trpc/server.ts` -> `src/server/api/root.ts`, `src/server/api/trpc.ts`, `src/trpc/query-client.ts`
